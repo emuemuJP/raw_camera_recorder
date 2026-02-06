@@ -1,0 +1,14 @@
+raw_camera_recorder:
+  ros__parameters:
+    camera_count: 6
+    device_base: "/dev/video"
+    device_index: 0
+    width: 1920
+    height: 1280
+    capture_fps: 30
+    record_fps: 20
+    pixel_format: "UYVY"
+    output_dir: "/mnt/m2ssd/raw_record"
+    segment_duration_ns: 10000000000
+    duration_sec: 0
+    io_mode: 2
